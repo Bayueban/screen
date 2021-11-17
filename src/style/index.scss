@@ -1,0 +1,40 @@
+@font-face {
+  font-family: SourceHanSansCN-Medium;
+  src: url('./SourceHanSansCN-Medium.ttf');
+}
+
+@font-face {
+  font-family: SourceHanSansCN-Regular;
+  src: url('./SourceHanSansCN-Regular.ttf');
+}
+
+@font-face {
+  font-family: SourceHanSansCN-Normal;
+  src: url('./SourceHanSansCN-Normal.otf');
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.ellipsis2 {
+  display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+overflow: hidden;
+}
+
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex: 0 0 auto
+}
